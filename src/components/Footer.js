@@ -10,10 +10,10 @@ const Footer = () => {
     <div className="container mt">
       {/* Footer content here */}
       <p>
-        Please <strong>click the button</strong> below
+        Let's <strong> click the button </strong> below:
       </p>
-      <button onClick={onChange}>click here</button>
-      <p>You clicked {count} times</p>
+      <button onClick={onChange}>Click here</button>
+      <p>You've clicked {count} times</p>
     </div>
   );
 };

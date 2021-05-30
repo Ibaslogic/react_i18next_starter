@@ -1,10 +1,10 @@
 const Content = () => {
   return (
     <div className="container hero">
-      <h1>Hello, let's learn how to use React-Intl</h1>
-      <p>How $59.99 is displayed in your selected language</p>
-      <p>This is how 2,000 is formatted in the selected locale</p>
-      <p>Start Today: {new Date().toLocaleDateString()}</p>
+      <h1>Welcome to the react-i18next tutorial</h1>
+      <p>Displaying $69.99 in the selected locale</p>
+      <p>Formatting 3,000 in the selected language</p>
+      <p>Today's date: {new Date().toLocaleDateString()}</p>
     </div>
   );
 };
