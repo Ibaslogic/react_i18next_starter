@@ -1,10 +1,10 @@
 const Content = () => {
   return (
     <div className="container hero">
-      <h1>Welcome to LogRocket Pricing Plan</h1>
-      <p>Starting: $99.00 / month</p>
-      <p>Starting at 1,000 sessions / month</p>
-      <p>Start Today: 4/21/2021</p>
+      <h1>Hello, let's learn how to use React-Intl</h1>
+      <p>How $59.99 is displayed in your selected language</p>
+      <p>This is how 2,000 is formatted in the selected locale</p>
+      <p>Start Today: {new Date().toLocaleDateString()}</p>
     </div>
   );
 };
