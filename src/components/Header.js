@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <div className="container header_content">
-        <div className="brand">ReactIntl</div>
+        <div className="brand">reactI18next</div>
         <nav>
           <ul>
             {menu.map(({ title, path }) => (
